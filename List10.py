@@ -6,4 +6,12 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    s = ''
+    while i < len(list1):
+
+        s += list1[i] + ' '
+        i += 1
+        
+    return s
+print(main(['green', 'black', 'pink']))
