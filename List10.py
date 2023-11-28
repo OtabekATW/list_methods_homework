@@ -6,12 +6,4 @@ def main(list1):
     Returns:
         list: return answer
     """
-    i = 0
-    s = ''
-    while i < len(list1):
-
-        s += list1[i] + ' '
-        i += 1
-        
-    return s
-print(main(['green', 'black', 'pink']))
+    return [list1.count(1), list1.count(0)]
