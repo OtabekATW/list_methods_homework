@@ -15,4 +15,3 @@ def main(fruits):
         i += 1
 
     return list1
-print(main(["apple", "banana", "apple", "pear", "apple"]))
